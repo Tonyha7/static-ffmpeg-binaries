@@ -202,8 +202,6 @@ jobs:
           mkdir assets
           SUFFIX="-${{ matrix.os_name }}-${{ matrix.target_arch }}${{ matrix.exe_ext}}"
           echo "SUFFIX=$SUFFIX" >> "$GITHUB_ENV"
-          cp ffmpeg/ffmpeg assets/ffmpeg"$SUFFIX"
-          cp ffmpeg/ffprobe assets/ffprobe"$SUFFIX"
 
           # Show sizes and MD5 sums that can be verified by users later if they
           # want to check for authenticity.
