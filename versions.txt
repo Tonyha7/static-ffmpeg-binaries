@@ -1,8 +1,8 @@
 ffmpeg: n7.1
-libvpx: v1.13.0
-svt-av1: v1.7.0
-x264: a8b68ebf
-x265: 3.5
+libvpx: v1.15.0
+svt-av1: v2.3.0
+x264: master
+x265: 4.1
 lame: 3.100
-opus: v1.4
-mbedtls: v3.4.1
+opus: v1.5.2
+mbedtls: v3.6.2
